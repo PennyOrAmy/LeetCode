@@ -18,3 +18,5 @@ var maxProfit = function(prices) {
 
   return length > 0 ? sum : 0;
 };
+// Runtime: 102 ms
+// Beats: 53.93%
