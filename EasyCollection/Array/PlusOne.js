@@ -3,9 +3,9 @@
  * @return {number[]}
  */
 var plusOne = function(digits) {
-  var length = digits.length;
-  var hasCarry = true;
-  var i = length - 1;
+  let length = digits.length,
+    hasCarry = true,
+    i = length - 1;
 
   while (hasCarry) {
     if (i < 0) {
@@ -21,7 +21,6 @@ var plusOne = function(digits) {
   }
 
   return digits;
+  // Runtime: 93 ms
+  // Beats: 55.80%
 };
-
-// Runtime: 93 ms
-// Beats: 55.80%

@@ -5,8 +5,8 @@
  */
 var intersect = function(nums1, nums2) {
   let list1 = [],
-    list2 = [];
-  let resultList = [];
+    list2 = [],
+    resultList = [];
 
   for (let i = 0; i < nums1.length; i++) {
     let key = nums1[i] + '';
@@ -41,11 +41,11 @@ var intersect = function(nums1, nums2) {
   // Beats: 81.20%
 
   // Sorted? this way
-  /*var resultList = [];
+  /*let resultList = [];
   nums1.sort(asc);
   nums2.sort(asc);
 
-  for(var i=0,j=0;i< nums1.length&&j<nums2.length;) {
+  for(let i=0,j=0;i< nums1.length&&j<nums2.length;) {
       if(nums1[i] === nums2[j]) {
           resultList.push(nums1[i]);
           i ++;
