@@ -3,7 +3,7 @@
  * @return {void} Do not return anything, modify matrix in-place instead.
  */
 var rotate = function(matrix) {
-  var width = matrix[0].length - 1;
+  let width = matrix[0].length - 1;
   if (width < 1) {
     return;
   }
@@ -14,7 +14,7 @@ var rotate = function(matrix) {
   }
 
   function loop(i) {
-    var w = width - i;
+    let w = width - i;
     for (let a = i; a < w; a++) {
       let temp = matrix[i][a];
       matrix[i][a] = matrix[w - a + i][i];
