@@ -24,7 +24,4 @@ var rotate = function(nums, k) {
       }
     }
   }
-
-  // Runtime: 109 ms
-  // Beats: 76.58%
 };

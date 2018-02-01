@@ -16,6 +16,4 @@ var twoSum = function(nums, target) {
   }
 
   return result;
-  // Runtime: 191 ms
-  // Beats: 55.93%
 };

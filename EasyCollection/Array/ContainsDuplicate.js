@@ -16,6 +16,4 @@ var containsDuplicate = function(nums) {
     }
   }
   return result;
-  // Runtime: 125 ms
-  // Beats: 70.16%
 };

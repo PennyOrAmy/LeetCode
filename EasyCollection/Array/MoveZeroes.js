@@ -13,7 +13,4 @@ var moveZeroes = function(nums) {
       i++;
     }
   }
-
-  // Runtime: 105 ms
-  // Beats: 64.44%
 };

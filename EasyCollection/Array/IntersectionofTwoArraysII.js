@@ -37,8 +37,6 @@ var intersect = function(nums1, nums2) {
   }
 
   return resultList;
-  // Runtime: 97 ms
-  // Beats: 81.20%
 
   // Sorted? this way
   /*let resultList = [];
@@ -62,6 +60,4 @@ var intersect = function(nums1, nums2) {
   }
 
   return resultList;*/
-  // Runtime: 102 ms
-  // Beats: 64.10%
 };

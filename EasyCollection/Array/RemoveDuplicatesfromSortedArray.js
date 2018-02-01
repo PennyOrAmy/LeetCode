@@ -21,6 +21,4 @@ var removeDuplicates = function(nums) {
   nums.splice(numsLength - counter, counter);
 
   return nums.length;
-  // Runtime: 163 ms
-  // Beats: 51.80%
 };

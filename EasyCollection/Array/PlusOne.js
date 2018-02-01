@@ -21,6 +21,4 @@ var plusOne = function(digits) {
   }
 
   return digits;
-  // Runtime: 93 ms
-  // Beats: 55.80%
 };

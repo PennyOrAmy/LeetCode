@@ -9,6 +9,4 @@ var singleNumber = function(nums) {
     result = result ^ nums[i];
   }
   return result;
-  // Runtime: 88 ms
-  // Beats: 85.50%
 };

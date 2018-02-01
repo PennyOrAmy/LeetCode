@@ -41,9 +41,6 @@ var isValidSudoku = function(board) {
     h = h + 3;
   }
   return true;
-
-  // Runtime: 132 ms
-  // Beats: 73.58%
 };
 
 var containsDuplicate = function(nums) {
