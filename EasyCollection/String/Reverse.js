@@ -3,13 +3,13 @@
  * @return {number}
  */
 var reverse = function(x) {
-  let INT_MAX = Math.pow(2, 31),
-    isMinus = x < 0,
+  const INT_MAX = Math.pow(2, 31);
+  let isMinus = x < 0,
     r = 0;
 
   x = Math.abs(x);
   while (x >= 1) {
-    r = r * 10 + Math.floor(x % 10);
+    r = r * 10 + ～～(x % 10);
     x /= 10;
   }
 
@@ -22,7 +22,7 @@ var reverse = function(x) {
   return r;
 };
 
-//  To number, there is 64-bit for save
+//  There is the 64-bit for a number
 //  The JavaScript number format allows you to exactly represent all integers
 //  between −9007199254740992 and 9007199254740992 (Math.pow(2, 53))
 //  It's only Math.pow(2, 31) for Array index
