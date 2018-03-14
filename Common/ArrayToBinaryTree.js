@@ -9,11 +9,11 @@ function buildTree(array) {
 
   function buildTreeNode(node, i) {
     let leftIndex = 2 * i + 1;
-    if (array[leftIndex]) {
+    if (array[leftIndex] !== null && array[leftIndex] !== undefined) {
       node.left = buildTreeNode(new TreeNode(array[leftIndex]), leftIndex);
     }
     let rightIndex = 2 * i + 2;
-    if (array[rightIndex]) {
+    if (array[rightIndex] !== null && array[rightIndex] !== undefined) {
       node.right = buildTreeNode(new TreeNode(array[rightIndex]), rightIndex);
     }
     return node;
