@@ -3,23 +3,23 @@
  * @return {number}
  */
 var reverse = function(x) {
-  const INT_MAX = Math.pow(2, 31);
-  let isMinus = x < 0,
-    r = 0;
+	const INT_MAX = Math.pow(2, 31);
+	let isMinus = x < 0,
+		r = 0;
 
-  x = Math.abs(x);
-  while (x >= 1) {
-    r = r * 10 + ～～(x % 10);
-    x /= 10;
-  }
+	x = Math.abs(x);
+	while (x >= 1) {
+		r = r * 10 + ～～(x % 10);
+		x /= 10;
+	}
 
-  if (r > INT_MAX) {
-    r = 0;
-  }
-  if (isMinus) {
-    r = 0 - r;
-  }
-  return r;
+	if (r > INT_MAX) {
+		r = 0;
+	}
+	if (isMinus) {
+		r = 0 - r;
+	}
+	return r;
 };
 
 //  There is the 64-bit for a number
