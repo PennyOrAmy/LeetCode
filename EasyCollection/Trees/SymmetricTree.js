@@ -11,53 +11,53 @@
  */
 
 function LRC(root) {
-  let arr = [];
-  loop(root);
+	let arr = [];
+	loop(root);
 
-  function loop(node) {
-    if (node) {
-      if (node.left || node.right) {
-        loop(node.left);
-        loop(node.right);
-      }
-      arr.push(node.val);
-    } else {
-      arr.push(null);
-    }
-  }
-  return arr;
+	function loop(node) {
+		if (node) {
+			if (node.left || node.right) {
+				loop(node.left);
+				loop(node.right);
+			}
+			arr.push(node.val);
+		} else {
+			arr.push(null);
+		}
+	}
+	return arr;
 }
 
 function RLC(root) {
-  let arr = [];
-  loop(root);
+	let arr = [];
+	loop(root);
 
-  function loop(node) {
-    if (node) {
-      if (node.left || node.right) {
-        loop(node.right);
-        loop(node.left);
-      }
-      arr.push(node.val);
-    } else {
-      arr.push(null);
-    }
-  }
-  return arr;
+	function loop(node) {
+		if (node) {
+			if (node.left || node.right) {
+				loop(node.right);
+				loop(node.left);
+			}
+			arr.push(node.val);
+		} else {
+			arr.push(null);
+		}
+	}
+	return arr;
 }
 
 var isSymmetric = function(root) {
-  if (root === null) return true;
+	if (root === null) return true;
 
-  let ll = LRC(root.left);
-  let rl = RLC(root.right);
+	let ll = LRC(root.left);
+	let rl = RLC(root.right);
 
-  for (let i = 0, j = ll.length; i < j; i++) {
-    if (ll[i] !== rl[i]) {
-      return false;
-    }
-  }
-  return true;
+	for (let i = 0, j = ll.length; i < j; i++) {
+		if (ll[i] !== rl[i]) {
+			return false;
+		}
+	}
+	return true;
 };
 
 // recursion
