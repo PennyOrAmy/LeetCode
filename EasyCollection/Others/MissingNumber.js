@@ -12,3 +12,5 @@ var missingNumber = function(nums) {
 
 	return l * (l + 1) / 2 - sum;
 };
+
+export default missingNumber;

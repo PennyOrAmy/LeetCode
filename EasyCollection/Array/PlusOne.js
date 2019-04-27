@@ -22,3 +22,5 @@ var plusOne = function(digits) {
 
 	return digits;
 };
+
+export default plusOne;

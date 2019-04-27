@@ -25,3 +25,5 @@ var firstUniqChar = function(s) {
 
 	return -1;
 };
+
+export default firstUniqChar;

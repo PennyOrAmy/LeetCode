@@ -23,4 +23,6 @@ var isAnagram = function(s, t) {
 	return true;
 };
 
+export default isAnagram;
+
 // 证错比证对容易；越早跳出越高效

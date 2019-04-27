@@ -15,3 +15,5 @@ var maxProfit = function(prices) {
 	}
 	return max;
 };
+
+export default maxProfit;

@@ -16,3 +16,5 @@ var rob = function(nums) {
 	});
 	return Math.max(a, b);
 };
+
+export default rob;

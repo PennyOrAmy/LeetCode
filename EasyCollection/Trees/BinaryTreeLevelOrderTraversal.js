@@ -26,3 +26,5 @@ var levelOrder = function(root) {
 	}
 	return arr;
 };
+
+export default levelOrder;

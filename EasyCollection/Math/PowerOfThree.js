@@ -14,3 +14,5 @@ var getMaxPowerOfThree = function() {
 	}
 	return item / 3;
 }
+
+export default isPowerOfThree;

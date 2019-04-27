@@ -35,3 +35,5 @@ var myAtoi = function(str) {
 	if (n < INT_MIN) return INT_MIN;
 	return n;
 };
+
+export default myAtoi;

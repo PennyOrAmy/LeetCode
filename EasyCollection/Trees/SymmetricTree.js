@@ -73,3 +73,5 @@ function ST(l, r) {
     return l.val === r.val && ST(l.left, r.right) && ST(l.right, r.left);
   } else return false;
 } */
+
+export default isSymmetric;

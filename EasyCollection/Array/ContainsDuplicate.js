@@ -17,3 +17,5 @@ var containsDuplicate = function(nums) {
 	}
 	return result;
 };
+
+export default containsDuplicate;

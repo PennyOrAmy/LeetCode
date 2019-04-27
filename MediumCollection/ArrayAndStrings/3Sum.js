@@ -37,3 +37,5 @@ var threeSum = function(nums) {
 	}
 	return result;
 };
+
+export default threeSum;

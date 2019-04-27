@@ -28,3 +28,5 @@ var romanToInt = function(s) {
 	}
 	return r;
 };
+
+export default romanToInt;

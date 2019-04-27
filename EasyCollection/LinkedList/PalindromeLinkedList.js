@@ -29,3 +29,5 @@ var isPalindrome = function(head) {
 	}
 	return true;
 };
+
+export default isPalindrome;

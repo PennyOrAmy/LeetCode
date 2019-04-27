@@ -29,3 +29,5 @@ var longestCommonPrefix = function(strs) {
 	}
 	return prefix;
 };
+
+export default longestCommonPrefix;

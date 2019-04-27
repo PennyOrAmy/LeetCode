@@ -24,3 +24,5 @@ var rotate = function(matrix) {
 		}
 	}
 };
+
+export default rotate;

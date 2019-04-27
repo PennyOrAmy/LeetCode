@@ -19,3 +19,5 @@ var sortedArrayToBST = function(nums) {
 
 	return node;
 };
+
+export default sortedArrayToBST;

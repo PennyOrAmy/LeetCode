@@ -9,3 +9,5 @@ var reverseString = function(s) {
 	}
 	return r;
 };
+
+export default reverseString;

@@ -32,3 +32,5 @@ var countAndSay = function(n) {
 		return result;
 	}
 };
+
+export default countAndSay;

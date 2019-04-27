@@ -8,3 +8,5 @@ var maxDepth = function(root) {
 	}
 	return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
 };
+
+export default maxDepth;

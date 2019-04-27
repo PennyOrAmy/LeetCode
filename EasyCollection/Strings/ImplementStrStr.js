@@ -20,3 +20,5 @@ var strStr = function(haystack, needle) {
 		}
 	}
 };
+
+export default strStr;

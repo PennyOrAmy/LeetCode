@@ -38,3 +38,4 @@ Solution.prototype.shuffle = function() {
  * var param_1 = obj.reset()
  * var param_2 = obj.shuffle()
  */
+export default Solution;

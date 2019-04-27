@@ -23,3 +23,5 @@ var hammingWeight = function(n) {
 	r += hammingWeight(n);
 	return r;
 };
+
+export default hammingWeight;

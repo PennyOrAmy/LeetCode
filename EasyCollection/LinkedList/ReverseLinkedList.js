@@ -20,3 +20,5 @@ var reverseList = function(head) {
 	}
 	return lastNode;
 };
+
+export default reverseList;

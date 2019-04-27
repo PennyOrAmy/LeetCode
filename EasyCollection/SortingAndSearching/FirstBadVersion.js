@@ -41,3 +41,5 @@ var solution = function(isBadVersion) {
 		}
 	};
 };
+
+export default solution;

@@ -9,3 +9,5 @@ var reverseBits = function(n) {
 	}
 	return parseInt(s.split('').reverse().join(''), 2);
 };
+
+export default reverseBits;

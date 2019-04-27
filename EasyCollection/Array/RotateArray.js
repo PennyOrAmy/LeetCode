@@ -25,3 +25,5 @@ var rotate = function(nums, k) {
 		}
 	}
 };
+
+export default rotate;

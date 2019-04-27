@@ -20,3 +20,5 @@ var fizzBuzz = function(n) {
 	};
 	return r;
 };
+
+export default fizzBuzz;

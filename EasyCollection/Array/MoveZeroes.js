@@ -14,3 +14,5 @@ var moveZeroes = function(nums) {
 		}
 	}
 };
+
+export default moveZeroes;

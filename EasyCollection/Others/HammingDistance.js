@@ -20,3 +20,5 @@ var hammingDistance = function(x, y) {
 	}
 	return count;
 };
+
+export default hammingDistance;

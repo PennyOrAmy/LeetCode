@@ -34,3 +34,5 @@ var isPalindrome = function(s) {
 		return false;
 	}
 };
+
+export default isPalindrome;

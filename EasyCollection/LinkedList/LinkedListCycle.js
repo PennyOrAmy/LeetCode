@@ -29,3 +29,5 @@ var hasCycle = function(head) {
 		}
 	}
 };
+
+export default hasCycle;

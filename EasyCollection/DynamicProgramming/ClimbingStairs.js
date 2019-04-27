@@ -12,3 +12,5 @@ var climbStairs = function(n) {
 	}
 	return a;
 };
+
+export default climbStairs;

@@ -30,3 +30,5 @@ var countPrimes = function(n) {
 	});
 	return Math.max(0, n - 1 - 1 - size);
 };
+
+export default countPrimes;

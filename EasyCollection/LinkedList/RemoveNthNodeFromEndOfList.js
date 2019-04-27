@@ -36,3 +36,5 @@ var removeNthFromEnd = function(head, n) {
 
 	return head;
 };
+
+export default removeNthFromEnd;

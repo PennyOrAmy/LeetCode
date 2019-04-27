@@ -26,3 +26,5 @@ var reverse = function(x) {
 //  The JavaScript number format allows you to exactly represent all integers
 //  between −9007199254740992 and 9007199254740992 (Math.pow(2, 53))
 //  It's only Math.pow(2, 31) for Array index
+
+export default reverse;
